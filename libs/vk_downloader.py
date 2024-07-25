@@ -1,7 +1,7 @@
 import requests
 import time
 from tqdm import tqdm
-from json_creator import JsonCreator
+from libs.json_creator import JsonCreator
 
 
 class VkPhotoDownloader:

@@ -1,7 +1,7 @@
 import requests
 import configparser
-from vk_downloader import VkPhotoDownloader
-from yandex_uploader import YandexDiskUploader
+from libs.vk_downloader import VkPhotoDownloader
+from libs.yandex_uploader import YandexDiskUploader
 
 
 def get_task_params():
